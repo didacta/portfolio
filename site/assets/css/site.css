@@ -15,10 +15,15 @@ body {
 	display: grid;
 	min-height: 100%;
 	grid-template-rows: 1fr auto;
+	background:ghostwhite;
 }
 
 header {
-	text-align: center;
+	padding: 10px;
+	padding-left: 20px;
+	color:white;
+	background-color: black;
+	text-align: left;
 	font-weight: bold;
 	font-size: 2rem;
 	border-bottom: 8px solid #127c72;
@@ -30,7 +35,9 @@ main {
 
 footer {
 	grid-row-start: 2;
-	grid-row-end: 3;
-	padding: 1rem;
-	border-top: 2px solid #f55555;
+	grid-row-end: 4;
+	padding: 15px;
+	text-align: center;
+	color:rebeccapurple;
+	border-top: 2px solid plum;
 }
