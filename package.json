@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/didacta/portfolio#readme",
   "dependencies": {
+    "cuttlebelle": "^1.0.0-alpha.57",
     "spectre.css": "^0.5.3"
   }
 }
